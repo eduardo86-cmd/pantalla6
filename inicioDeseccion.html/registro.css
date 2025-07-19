@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  width: 230px;
+  background-color: #14204f;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+.brand{
+  text-align:center;
+}
+.brand img{
+  max-width:170px;
+}
+.logo {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.logo span {
+  color: #00d9a0;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logout {
+  display: block;
+  margin-top: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  flex: 1;
+  padding: 30px;
+}
+
+.header{
+  background: #BDC9F3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.header h2 {
+  color: #4c5c8d;
+  margin-bottom: 5px;
+}
+.header h2 {
+  color: #4c5c8d;
+  margin-bottom: 5px;
+}
+.a-panelprincipal{
+  text-decoration: none;
+  color: white;
+}
+.a-detalleusuario{
+  text-decoration: none;
+}
+.separacion{
+  display: flex;
+  width: 100%;
+}
+.infopersonal{
+  margin-top: 20px;
+  margin-left: 50px;
+  background: rgb(255, 255, 255);
+  width: 450px;
+  font-weight: bold;
+  padding: 10px;
+}
+.titulo-infopersonal{
+  font-size: 22px;
+  color: #14204f;
+  margin-bottom: 10px;
+}
+.label-infopersonal{
+  display: inline-block;
+  width: 180px;
+  color: #14204f;
+  margin-bottom: 10px;
+}
+.input{
+  display: inline-block;
+  width: 218px;
+}
+.courses {
+  display: grid; 
+  margin-left: 50px;  
+  gap: 5px;                      
+}
+.courses label {
+  display: grid;
+  align-items: center;
+  gap: 5px;
+}
+.validate-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #1e2a80;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 920px;
+}
+.boton{
+  text-decoration: none;
+  color: white;
+}
+.logout{
+  margin-top: 160px;
+  font-weight: bold;
+}
